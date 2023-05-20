@@ -1,48 +1,35 @@
-# Web_Automation_With_Selenium_TestNG
+# Image Preprocessing
 
 ## Technology used in this project
-- JAVA
-- Selenium
-- TestNG Library
+- Python
+- OpenCV
+- TensorFlow Library
+- Numpy
+- Pandas
 
-## Project Scenarios
-- Login to orange hrm demo site
-https://opensource-demo.orangehrmlive.com/
-- Create 2 new employees and save it to a JSON list
-- Now go to PIM dashboard and search by 1st user name. Assert that the user is found.
-- Now click on the user from the search table and update id by random userid
-- Now again search the user by new user id from the PIM dashboard menu and assert that the user is found
-- Now logout from admin and login with the 2nd user from your JSON list
-- Now click on My Info menu
-- Select Gender and Blood Type and save it
-- Click on contact details and input address and email
-- Logout the user
+## Project Goal
+- Label unlabeled Data
+- Balance all label data
+- Generate Keypoints from pose
 
-## How to run this project
-- Clone this project
-- Open it any IDE (IntelliJ)
-- Hit the command `gradle clean test`
+## Project details
+- Read data using pandas
+- Create subdirectory with 'class name' and Separating images and storing them into three different folder according to pose
+- Reading images from directory and converting to array for Image Augmentaion.
+- Storing the Augumented images just for balancing dataset.
+- Generate Keypoints using OpenCV and store those keypoints in a csv file
 
-## How to Generate Allure Report
-- Give the following commands by opening terminal in the project folder to create Allure Report
-- `allure generate allure-results --clean -o allure-report`
-- `allure serve allure-results`
+## Project Report Image
 
-## Selenium TestNG Automation Report Image
+<img width="1470" alt="4" src="https://github.com/sauravdasmg/Computer-Vision/assets/49373556/fe22e6ee-0baf-415c-91f8-c94d742f5d87">
 
-<img width="1470" alt="1" src="https://user-images.githubusercontent.com/67514655/221340663-5f3a4500-cab6-45d6-b744-04e4435a70a1.png">
+<img width="1470" alt="1" src="https://github.com/sauravdasmg/Computer-Vision/assets/49373556/b40ea799-7721-4a94-abd3-3ef6f25b58c9">
 
-<img width="1470" alt="2" src="https://user-images.githubusercontent.com/67514655/221340672-74ddf8ad-cd2a-44cc-a266-1cd43cfabadd.png">
+<img width="1470" alt="2" src="https://github.com/sauravdasmg/Computer-Vision/assets/49373556/2843a4df-a6dd-4c86-996b-9c845a28f6f2">
 
-<img width="1470" alt="3" src="https://user-images.githubusercontent.com/67514655/221340682-88f31225-94c0-423b-82c0-4d7f30810d3c.png">
+<img width="1470" alt="3" src="https://github.com/sauravdasmg/Computer-Vision/assets/49373556/e44e7c97-936b-4247-b9a9-c4b6b15fd0ad">
 
-<img width="1470" alt="4" src="https://user-images.githubusercontent.com/67514655/221340684-af5e4981-b0a5-4c16-851a-f4bb7c94eba7.png">
-![linkedin](https://user-images.githubusercontent.com/49373556/230783554-580a211f-2ae3-4993-9a72-13723ce292db.png)
+<img width="1470" alt="5" src="https://github.com/sauravdasmg/Computer-Vision/assets/49373556/5c091885-8a69-4c62-8900-89b5a08dfcc7">
 
-<img width="1470" alt="5" src="https://user-images.githubusercontent.com/67514655/221340690-cc2adaa2-67a0-40c2-8903-ddbbc35ad146.png">
-
-## Output Video of the Project
-
-https://user-images.githubusercontent.com/67514655/221342165-dc0cbd47-166b-4133-8a0f-f81561993422.mp4
 
 
