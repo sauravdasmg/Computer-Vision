@@ -1,4 +1,4 @@
-# Image Preprocessing
+# Extracting Body Keypoints from Images and Balancing the Dataset
 
 ## Technology used in this project
 - Python
